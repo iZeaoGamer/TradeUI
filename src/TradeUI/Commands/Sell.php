@@ -24,7 +24,7 @@ class Sell extends Command implements PluginIdentifiableCommand{
          *
          */
         public function __construct(TradeUI $loader){
-                parent::__construct("sell", "access the sell ui", "Usage: /sell", []);
+                parent::__construct("ahsell", "access the sell ui", "Usage: /ahsell", []);
                 $this->loader = $loader;
         }
 
