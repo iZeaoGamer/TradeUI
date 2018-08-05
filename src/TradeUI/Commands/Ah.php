@@ -22,7 +22,7 @@ class Ah extends Command implements PluginIdentifiableCommand{
          *
          */
         public function __construct(TradeUI $loader){
-                parent::__construct("ah", "access the public market ui", "Usage: /shop", []);
+                parent::__construct("ah", "access the public market ui", "Usage: /ah", []);
                 $this->loader = $loader;
         }
 
